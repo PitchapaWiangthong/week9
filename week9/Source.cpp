@@ -48,7 +48,6 @@ int main()
 		i++;
 	}
 	No = No / 2;
-	printf("%d %d %d %d %d %d %d %d ", Nc, Ne, Nb, No, Ns, Nt, Nu, Np);
 	int a[8];
 	a[0] = Nc;
 	a[1] = Ne;
@@ -66,5 +65,5 @@ int main()
 			min = a[i];
 		}
 	}
-	printf("\n%d", min);
+	printf("%d", min);
 }
